@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>AMA</title>
+
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyARsvXHJj7nGLyFTAOW9hqhS7aUUv9si9E",
+      authDomain: "academia-de-mi-abuela-bfef6.firebaseapp.com",
+      databaseURL: "https://academia-de-mi-abuela-bfef6.firebaseio.com",
+      storageBucket: "",
+    };
+    firebase.initializeApp(config);
+  </script>
+  <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/map.js"></script>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+  <!-- NAV BAR -->
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo">Academia De mi Abuela</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Staff</a></li>
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">Admission</a></li>
+        <li><a href="#">Calendar</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- NAV BAR -->
+
+  <body>
+
+  <!-- Staff -->
+  <h1>Our Staff</h1>
+
+  <div id="staff">
+    <ul class="collection">
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/cynthia_flag.png" alt="" class="circle">
+        <span class="title"> Cynthia Reimann </span>
+        <p>Director +  Founder <br>
+         
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/jason_flag.png" alt="" class="circle">
+        <span class="title">Jason Reimann</span>
+        <p>Board Member <br>
+           
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/cynthia_flag.png" alt="" class="circle">
+        <span class="title">Ruby Huerta</span>
+        <p>Administrative Assistant <br>
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/cynthia_flag.png" alt="" class="circle">
+        <span class="title">Leonor Dukes</span>
+        <p>Primary Instructor: Casa Lima (3) <br>    
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/cynthia_flag.png" alt="" class="circle">
+        <span class="title">Jacqueline Del Toro</span>
+        <p>Teaching Assistant: Casa Lima (3) <br>      
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/yaneldig_flag.png" alt="" class="circle">
+        <span class="title">Yaneldis Diaz Pedroso</span>
+        <p>Primary Instructor: Casa Celeste (4) <br>      
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/yani.png" alt="" class="circle">
+        <span class="title">Lani Rodarte</span>
+        <p>Teaching Assistant: Casa Celeste (4)<br>     
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/cynthia_flag.png" alt="" class="circle">
+        <span class="title">Maria Luisa Ramos</span>
+        <p>Primary Instructor:  Casa Lima (2) <br>    
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/cynthia_flag.png" alt="" class="circle">
+        <span class="title">Xochitl Juarez</span>
+        <p>Teaching Assistant: Casa Lima (2) <br>        
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/cynthia_flag.png" alt="" class="circle">
+        <span class="title">Laura Soto</span>
+        <p>Teaching Assistant: Casa Lima (2) <br>    
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/cynthia_flag.png" alt="" class="circle">
+        <span class="title">Valeria Espinoza</span>
+        <p>Primary Instructor: Casa Lila (1) <br>     
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/cynthia_flag.png" alt="" class="circle">
+        <span class="title">Ana Delia Lora</span>
+        <p>Teaching Assistant: Casa Lila (1) <br>  
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/cynthia_flag.png" alt="" class="circle">
+        <span class="title">Dona Patty</span>
+        <p>Maintenance Director <br>
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+      <li class="collection-item avatar">
+        <img src="staff_imgs/corro_flag.png" alt="" class="circle">
+        <span class="title">Gladys Corro</span>
+        <p>Teaching Assistant: Casa Lila (Floating) <br>     
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+
+    </ul>
+  </div>
+
+  </body>
+
+
+  <!-- Footer -->
+
+   <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Enrollment</h5>
+          <p class="grey-text text-lighten-4">We offer year-round enrollment. Feel free to contact us to schedule a tour. 
+           We offer tours every Tuesday and Thursday between 10:00AM-10:45AM, by 
+           appointment only. Please email the director, Cynthia Mendez Reimann, at 
+                                           reimanncynthia@gmail.com</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Address</h5>
+          <ul class="white-text">
+            <li>2163 Mountain Blvd</li>
+            <li>Suite #300</li>
+            <li>Oakland, CA 94611</li>
+          </ul>
+        </div>
+        <div class="col l4 s10">
+          <h5 class="white-text">Contact US</h5>
+          <ul class="white-text">
+            <li><i class="material-icons">contact_phone</i> (510) 336-7082 </li>
+            <li><i class="material-icons">phonelink_ring</i> (510) 409-9771</li>
+            <li><i class="material-icons">email</i> reimanncynthia@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Alivia B.</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>AMA</title>
+
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script>
+
+  </script>
+  <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/map.js"></script>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <style>
+      #map {
+        width: 500px;
+        height: 200px;
+      }
+    </style>
+</head>
+<body>
+
+  <!-- NAV BAR -->
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Academia De mi Abuela</a>
+      <ul class="right hide-on-med-and-down">
+        <li id="About"><a href="#">About</a></li>
+        <li id="Staff"><a href="#">Staff</a></li>
+        <li id="Programs"><a href="#">Programs</a></li>
+        <li id="Admission"><a href="#">Admission</a></li>
+        <li id="calendar"><a href="#">Calendar</a></li>
+        <li id="register"><a href="#">Register</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- NAV BAR -->
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text text-lighten-2">Spanish Immersion Preschool</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Cultivating Culture * Celebrating Tradition * Connecting Community</h5>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="ama_circle.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">language</i></h2>
+            <h5 class="center">Bilingual Education</h5>
+
+            <p class="light">Around the world most children speak more than one language. Most of our families speak English at home with snippets of Spanish. During the day instructors speak Spanish around 95% of the time.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group_work</i></h2>
+            <h5 class="center">Play-Based</h5>
+
+            <p class="light">Studies show that children develop their whole-selves through play based activities. When activities involve physical play based around conceptual understanding and exploration, children flourish. </p>
+            <a href="https://youtu.be/Bg-GEzM7iTk">Ted Talk: PlayBased Learning</a>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">radio</i></h2>
+            <h5 class="center">Art & Music</h5>
+
+            <p class="light">We love to dance and sing at AMA. We also have themed arts and crafts activites for the students to improve their fine motor skills.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="students_laugh.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+
+      <div class="row">
+        <div class="col s12 center">
+
+          <h4>Visit Us</h4>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100849.45315785128!2d-122.27853651554358!3d37.82411556325395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f87909d301c8d%3A0x46961b4ad209e041!2sAcademia+De+MI+Abuela!5e0!3m2!1sen!2sus!4v1464596977635" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A preschool for our Community in Oakland.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Enrollment</h5>
+          <p class="grey-text text-lighten-4">We offer year-round enrollment. Feel free to contact us to schedule a tour.
+           We offer tours every Tuesday and Thursday between 10:00AM-10:45AM, by
+           appointment only. Please email the director, Cynthia Mendez Reimann, at
+                                           reimanncynthia@gmail.com</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Address</h5>
+          <ul class="white-text">
+            <li>2163 Mountain Blvd</li>
+            <li>Suite #300</li>
+            <li>Oakland, CA 94611</li>
+          </ul>
+        </div>
+        <div class="col l4 s10">
+          <h5 class="white-text">Contact US</h5>
+          <ul class="white-text">
+            <li><i class="material-icons">contact_phone</i> (510) 336-7082 </li>
+            <li><i class="material-icons">phonelink_ring</i> (510) 409-9771</li>
+            <li><i class="material-icons">email</i> reimanncynthia@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Alivia B.</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../js/app.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/init.js"></script>
+
+  </body>
+</html>
